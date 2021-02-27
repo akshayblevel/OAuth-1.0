@@ -11,6 +11,7 @@ namespace OAuth1.Controllers
 {
     public class AuthController : ApiController
     {
+    //Get Token
         public IEnumerable<string> Get()
         {
             string normalizedUrl = string.Empty;
